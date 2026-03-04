@@ -12,7 +12,8 @@
 
 namespace {
 
-    struct Player {
+    struct Player 
+    {
         SOCKET socket = INVALID_SOCKET;
         int id = 0;
         int score = 0;
